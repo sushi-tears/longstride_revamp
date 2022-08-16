@@ -17,16 +17,19 @@
   </head>
   <body>
     <!-- Navigation -->
-    <nav class="mb-2 navbar navbar-expand-md navbar-light fixed-top bg-light">
+    <nav class="mb-2 navbar navbar-expand-md navbar-light sticky-top">
       <div class="container-xl">
-        <a href="index.html" class="navbar-brand">
-          <span class="fw-bold text-secondary">
+        <a href="index.html" class="navbar-brand ">
+          <span class="fw-bold text-secondary d-none d-md-block">
             Longstride Investment Company
+          </span>
+          <span class="fw-bold text-secondary d-block d-sm-block d-md-none">
+            Longstride Investment <br/> Company
           </span>
         </a>
         <!-- toggle button for mobile nav -->
         <button
-          class="navbar-toggler"
+          class="navbar-toggler position-relative top-50 start-1 bg-light"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#main-nav"
@@ -67,7 +70,7 @@
     <!-- End Navigation -->
     <!-- Main Content -->
     <section id="intro" class="min-vh-100">
-      <div class="container-lg my-5 pt-3">
+      <div class="container-lg my-5 pt-5">
         <div class="row justify-content-center align-items-center">
           <div class="p-5 col-md-5 text-center shadow-lg">
             <img
@@ -122,28 +125,11 @@
       <div class="container-lg p-5 shadow-lg mb-5">
         <div class="container-lg">
           <div class="row">
-            <div class="p-5 my-2 col-md-6 text-center">
-              <!-- <img
-                id="stocks_img"
-                class="img-fluid"
-                src="../images/stocks.jpg"
-                alt="stocks"/> -->
-            </div>
-            <div class="p-5 my-2 col-md-6 text-center bg-warning"><i class="fa-solid fa-check-to-slot fa-4x"></i>
-              <p class="lead fw-bold">Checks and balances</p>
-              <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque repellat aspernatur quia cum cumque distinctio repudiandae! Facere quia accusantium possimus.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="container-lg p-5 shadow-lg mb-5">
-        <div class="container-lg">
-          <div class="row">
+            <div class="p-5 col-md-6 text-center"></div>
             <div class="p-5 col-md-6 text-center bg-warning"><i class="fa-solid fa-chart-line fa-4x"></i>
               <p class="lead fw-bold">Large Savings</p>
               <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque repellat aspernatur quia cum cumque distinctio repudiandae! Facere quia accusantium possimus.</p>
             </div>
-            <div class="p-5 col-md-6 text-center"></div>
           </div>
         </div>
       </div>

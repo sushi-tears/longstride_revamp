@@ -17,3 +17,11 @@
   width: 100%;
   position: absolute;
 }
+
+#values {
+  padding-top: 4.5em;
+}
+
+nav {
+  background-color: #ececec;
+}
